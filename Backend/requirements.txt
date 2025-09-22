@@ -1,0 +1,37 @@
+# Core FastAPI and server
+fastapi
+uvicorn[standard]
+
+# Database and SQLAlchemy
+sqlalchemy
+psycopg2-binary
+# Remove sqlite3 - it's built into Python
+
+# Data processing
+pandas
+numpy
+xarray
+netCDF4
+scipy
+
+# LangChain and LLM
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-groq
+
+# Vector store and embeddings
+sentence-transformers
+faiss-cpu
+transformers
+
+# Environment and utilities
+python-dotenv
+requests
+pydantic
+
+# Additional for complete system
+matplotlib
+plotly
+folium
